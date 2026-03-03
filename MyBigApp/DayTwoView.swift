@@ -1,19 +1,18 @@
 //
-//  Settings.swift
+//  DayTwoView.swift
 //  MyBigApp
 //
-//  Created by Yicheng Shi on 2026-03-02.
+//  Created by Yicheng Shi on 2026-03-03.
 //
 
 import SwiftUI
 
-struct Settings: View {
+struct DayTwoView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    Settings()
+    DayTwoView()
 }
-
