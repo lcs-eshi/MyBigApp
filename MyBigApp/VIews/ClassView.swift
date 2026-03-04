@@ -24,7 +24,10 @@ struct ClassView: View {
             }
         }
         .padding()
-        .border(.black)
+        .background {
+            RoundedRectangle(cornerRadius: 15.0)
+                .fill(.blue.opacity(0.5))
+        }
     }
 }
 
